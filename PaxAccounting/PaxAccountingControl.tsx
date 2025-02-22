@@ -42,6 +42,7 @@ const PaxAccountingControl: React.FC = () => {
         <DefaultButton text={isEditing ? "Save" : "Edit"} onClick={() => setIsEditing(!isEditing)} />
       </div>
 
+
       <div style={{ border: "1px solid black", padding: "10px", marginBottom: "10px" }}>
         <h3>PAX Accounting</h3>
         <DetailsList
